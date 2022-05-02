@@ -29,6 +29,18 @@ html {
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  html {
+    font-size: 38%;
+  }
+}
+
 button {
   cursor: pointer;
 }
@@ -61,6 +73,25 @@ body {
   background-position: bottom center, top center, center;
 }
 
+@media screen and (max-width: 768px) {
+  .main {
+    background-size: 150% 220px, 100% calc(100vh - 220px), cover;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    background-size: 200% 220px, 100% calc(100vh - 220px), cover;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .main {
+    background-size: 220% 220px, 100% calc(100vh - 220px), cover;
+    background-position: bottom left, top center, center;
+  }
+}
+
 .main__title {
   color: var(--White);
   text-align: center;
@@ -72,6 +103,7 @@ body {
   top: 12.5rem;
   font-size: 2.2rem;
   width: 100%;
+  line-height: 1.75;
 }
 
 .main__timer {
@@ -84,6 +116,21 @@ body {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .main__timer {
+    top: 42%;
+    gap: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .main__timer {
+    top: 42%;
+    gap: 1rem;
+  }
 }
 
 .main__timer__block {
@@ -108,6 +155,22 @@ body {
   );
   box-shadow: 0px 8px 1px var(--Verydarkmostlyblackblue);
   border-radius: 7px;
+}
+
+@media screen and (max-width: 576px) {
+  .main__timer__block__num {
+    width: 11rem;
+    height: 11rem;
+    font-size: 5.5rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .main__timer__block__num {
+    width: 9.5rem;
+    height: 9.5rem;
+    font-size: 4.5rem;
+  }
 }
 
 .icon-1 {
@@ -135,6 +198,13 @@ body {
   letter-spacing: 5px;
   font-size: 1.4rem;
   font-weight: 700;
+}
+
+@media screen and (max-width: 576px) {
+  .main__timer__block__title {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
 }
 
 .main__attribution {
