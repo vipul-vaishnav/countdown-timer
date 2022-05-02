@@ -31,7 +31,7 @@ Here is an screenshot of the solution of the challenge coded by me.
 ### Links
 
 - Solution URL: [Solution URL here](https://github.com/vipul-vaishnav/countdown-timer)
-- Live Site URL: [Live site URL here](https://countdown-timer-vipul.netlify.app/)
+- Live Site URL: [Live site URL here](https://countdown-timer-rouge.vercel.app/)
 
 ## My process
 
