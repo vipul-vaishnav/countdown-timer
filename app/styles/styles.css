@@ -54,7 +54,7 @@ body {
   width: 100%;
   color: #000000;
   background-color: #ffffff;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .main {
@@ -170,6 +170,7 @@ body {
     width: 9.5rem;
     height: 9.5rem;
     font-size: 4.5rem;
+    /* color: #191a24; */
   }
 }
 
