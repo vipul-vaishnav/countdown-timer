@@ -1,6 +1,6 @@
 "use strict";
 
-const newDate = new Date("Jul 25, 2022 00:00:01").getTime();
+const newDate = new Date("Jan 1, 2023 00:00:01").getTime();
 // const newDate = new Date("Jan 1, 2023 00:00:01").getTime();
 // const newDate = new Date("May 3, 2022 00:00:01").getTime();
 const days = document.querySelector("#num-days");
